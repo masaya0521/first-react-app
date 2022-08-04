@@ -5,7 +5,7 @@ const Hello = () => {
 
   const text = "Hello React";
 
-  return <div onClick={onClick()}>{text}</div>;
+  return <button onClick={onClick}>{text}</button>;
 };
 
 export default Hello;
