@@ -8,6 +8,7 @@ import Name from "./components/Name";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
 import { Clock } from "./components/Clock";
+import Input from "./components/Input";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -19,6 +20,7 @@ root.render(
     <Message />
     <Counter initialValue={0} />
     <Clock />
+    <Input />
   </React.StrictMode>
 );
 

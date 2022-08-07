@@ -38,6 +38,7 @@ export const Clock = () => {
       clearInterval(timer);
     };
     // 初期描写のみ実行する
+    // 空配列を渡している場合は初期描写のみ反応する
   }, []);
 
   // localstrageから値を読み込むための副作用
